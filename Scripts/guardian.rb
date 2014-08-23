@@ -6,7 +6,6 @@ class Game_Interpreter
     e1 = get_character(id1)
 	e2 = get_character(id2)        
 	collided = is_facing?(e2, e1)
-	Logger.log("Real: #{e2.real_x} #{e2.real_y}")
 	return collided
   end
   
