@@ -1,0 +1,1 @@
+Graphics.fullscreen_mode
